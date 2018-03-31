@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding:0;
+  color: #6d6e71;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+main {
+  background-color: #e5f3f2;
+  margin-bottom: 35px;
+}
+
+h1 {
+  display: inline-block;
+  font-family: 'Roboto Slab', serif;
+  font-size: 5em;
+  margin-bottom: 30px;
+}
+
+input {
+  
+  margin-bottom: 20px;
+  width: 98.5%;
+  border: #939598 solid 2px;
+  height: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  font-size: 2em;
+  color: #939598;
+}
+
+input::placeholder {
+   color: #939598;
+   /*padding-top:10px;*/
+}
+
+section {
+  margin-top:35px;
+}
+
+form {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+
+
+.main__h1 {
+ color: #00a79d;
+ display: inline-block;
+
+}
+
+button {
+  width: 100%;
+  height: 55px;
+  color: #fff;
+  background-color: #00a79d; 
+  margin-bottom: 35px;
+  font-size: 2em;
+}
+
+hr {
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;*/
+
+/*background: #e5f3f2;
+Box h1: #6d6e71;
+save btn: #00a79d
+on hover: #045e55
+h2: #6d6e71;
+p: #939598
+spans:#6d6e71
+*/
