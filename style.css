@@ -11,31 +11,20 @@ main {
   margin-bottom: 35px;
 }
 
-p {
-  font-size: 26px;
-  color: #939598;
+.main__h1 {
+ color: #00a79d;
+ display: inline-block;
 }
 
-img {
-  height: 35px;
-  width: 35px;
+form {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
 }
 
-.card-h2 {
-  display: inline-block;
-  margin-bottom: 0;
-  font-family: 'Roboto Slab', serif;
-  font-size: 35px;
-}
-
-h1 {
+.main__input {
   display: inline-block;
   font-family: 'Roboto Slab', serif;
-  font-size: 5em;
-  margin-bottom: 30px;
-}
-
-.main__h1-input {
   margin-bottom: 20px;
   width: 98.5%;
   border: #939598 solid 2px;
@@ -47,71 +36,7 @@ h1 {
   color: #939598;
 }
 
-.main__h1-input::placeholder {
-   color: #939598;
-}
-
-.delete-btn {
-float: right;
-margin-top: 33px;
-background-image: url('Images/delete.svg');
-height: 30px;
-width: 30px;
-border: none;
-}
-
-.delete-btn:hover {
-  background-image: url('Images/delete-hover.svg');
-  
-}
-
-.upvote {
-background-image: url('Images/upvote.svg');
-height: 30px;
-width: 30px;
-border: none;
-
-}
-
-.upvote:hover {
-  background-image: url('Images/upvote-hover.svg');
-  height: 30px;
-  width: 30px;
-  border: none;
-
-}
-
-.downvote {
-  background-image: url('Images/downvote.svg');
-  height: 30px;
-  width: 30px;
-  border: none;
-
-}
-
-.downvote:hover {
-  background-image: url('Images/downvote-hover.svg');
-  height: 30px;
-  width: 30px;
-  border: none;
-}
-
-section {
-  margin-top:35px;
-}
-
-form {
-  text-align: center;
-  width: 60%;
-  margin-left: 20%;
-}
-
-.main__h1 {
- color: #00a79d;
- display: inline-block;
-}
-
-.save-button {
+.main__button {
   width: 100%;
   height: 55px;
   color: #fff;
@@ -120,51 +45,77 @@ form {
   font-size: 2em;
 }
 
+section {
+  margin-top:35px;
+}
+
+.article__h2 {
+  display: inline-block;
+  margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+}
+
+.article__button-delete {
+float: right;
+margin-top: 33px;
+background-image: url('Images/delete.svg');
+height: 30px;
+width: 30px;
+border: none;
+}
+
+.article__button-delete:hover {
+  background-image: url('Images/delete-hover.svg');
+  
+}
+
+p {
+  font-size: 26px;
+  color: #939598;
+}
+
 hr {
   width: 100%;
 }
 
-.search-bar {
-  width: 59%;
-  font-size: 2em;
-  color: #939598;
-  border: #939598 solid 2px;
-}
-
-.search-bar::placeholder {
+.main__h1-input::placeholder {
    color: #939598;
 }
 
-.idea__card {
-  width: 59%;
-  margin-left: 20.4%;
-  text-align: left;
+.article__button-upvote {
+background-image: url('Images/upvote.svg');
+height: 30px;
+width: 30px;
+border: none;
+
 }
 
-.vote-btn {
- float: left;
- margin-top: 30px;
- margin-right: 22px;
+.article__button-upvote:hover {
+  background-image: url('Images/upvote-hover.svg');
+  height: 30px;
+  width: 30px;
+  border: none;
+
 }
 
-.quality-span {
+.article__button-downvote {
+  background-image: url('Images/downvote.svg');
+  height: 30px;
+  width: 30px;
+  border: none;
+
+}
+
+.article__button-downvote:hover {
+  background-image: url('Images/downvote-hover.svg');
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+
+.article__p {
 float: left;
 font-weight: 800;
 margin-bottom: 50px ;
 }
-
-
-
-
-/*
-font-family: 'Roboto Slab', serif;
-font-family: 'Open Sans', sans-serif;*/
-
-/*background: #e5f3f2;
-Box h1: #6d6e71;
-save btn: #00a79d
-on hover: #045e55
-h2: #6d6e71;
-p: #939598
-spans:#6d6e71
-*/
