@@ -54,10 +54,46 @@ h1 {
 .delete-btn {
 float: right;
 margin-top: 33px;
+background-image: url('Images/delete.svg');
+height: 30px;
+width: 30px;
+border: none;
 }
 
 .delete-btn:hover {
+  background-image: url('Images/delete-hover.svg');
   
+}
+
+.upvote {
+background-image: url('Images/upvote.svg');
+height: 30px;
+width: 30px;
+border: none;
+
+}
+
+.upvote:hover {
+  background-image: url('Images/upvote-hover.svg');
+  height: 30px;
+  width: 30px;
+  border: none;
+
+}
+
+.downvote {
+  background-image: url('Images/downvote.svg');
+  height: 30px;
+  width: 30px;
+  border: none;
+
+}
+
+.downvote:hover {
+  background-image: url('Images/downvote-hover.svg');
+  height: 30px;
+  width: 30px;
+  border: none;
 }
 
 section {
@@ -75,7 +111,7 @@ form {
  display: inline-block;
 }
 
-button {
+.save-button {
   width: 100%;
   height: 55px;
   color: #fff;
@@ -105,7 +141,7 @@ hr {
   text-align: left;
 }
 
-.quality-btn {
+.vote-btn {
  float: left;
  margin-top: 30px;
  margin-right: 22px;
