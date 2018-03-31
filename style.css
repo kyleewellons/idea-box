@@ -36,6 +36,11 @@ form {
   color: #939598;
 }
 
+.section__input {
+  height: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
 .main__button {
   width: 100%;
   height: 55px;
