@@ -59,8 +59,8 @@ form {
 }
 
 .form__input::placeholder {
-color: #939598;
-font-family: 'Open Sans', sans-serif;
+  color: #939598;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .section__input {
@@ -101,12 +101,12 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .article__button-delete {
-float: right;
-margin-top: 33px;
-background-image: url('Images/delete.svg');
-height: 50px;
-width: 50px;
-border: none;
+  float: right;
+  margin-top: 33px;
+  background-image: url('Images/delete.svg');
+  height: 50px;
+  width: 50px;
+  border: none;
 }
 
 .article__button-delete:hover {
@@ -119,9 +119,8 @@ hr {
 }
 
 .article__button-upvote {
-background-image: url('Images/upvote.svg');
-border: none;
-
+  background-image: url('Images/upvote.svg');
+  border: none;
 }
 
 .article__button-upvote:hover {
@@ -129,13 +128,11 @@ border: none;
   height: 50px;
   width: 50px;
   border: none;
-
 }
 
 .article__button-downvote {
   background-image: url('Images/downvote.svg');
   border: none;
-
 }
 
 .article__button-downvote:hover {
@@ -146,10 +143,10 @@ border: none;
 }
 
 .quality {
-float: left;
-font-weight: 800;
-font-size: 30px;
-margin: 0px;
+  float: left;
+  font-weight: 800;
+  font-size: 30px;
+  margin: 0px;
 }
 
 @media only screen and (max-width: 650px) {
@@ -160,66 +157,54 @@ margin: 0px;
   }
 
   .section__input {
-  width: 85%;
-}
+    width: 85%;
+  }
 
-.idea-article {
-  width: 90%;
-  margin: 0 0 0 5%;
-}
+  .idea-article {
+    width: 90%;
+    margin: 0 0 0 5%;
+  }
 
+  .article__button {
+    height: 40px;
+    width: 40px;
+  }
 
+  .article__button-delete {
+    height: 40px;
+    width: 40px;
+  }
 
-.article__button {
-  height: 40px;
-  width: 40px;
-}
-
-.article__button-delete {
-  height: 40px;
-  width: 40px;
-
-}
-
-.quality {
-  font-size: 30px;
-
-}
-
+  .quality {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 374px) {
- .quality {
-  font-size: 20px;
+  .quality {
+    font-size: 20px;
+  }
 
+  .article__button {
+    height: 30px;
+    width: 30px;
+  }
+
+  .article__button:hover {
+    height: 30px;
+    width: 30px;
+  }
+
+  .article__button-delete {
+    height: 30px;
+    width: 30px;
+  }
+
+  .form__input-body {
+    height:80px;
+  }
+
+  h1 {
+    display: inline-block;
+  }
 }
-
-.article__button {
-  height: 30px;
-  width: 30px;
-}
-
-.article__button:hover {
-  height: 30px;
-  width: 30px;
-}
-
-
-.article__button-delete {
-  height: 30px;
-  width: 30px;
-
-}
-
-.form__input-body {
-  height:80px;
-}
-
-h1 {
-  display: inline-block;
-}
-
-}
-
-
-
