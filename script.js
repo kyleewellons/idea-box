@@ -1,5 +1,5 @@
-var cardTitle = $(".form__input-title")
-var cardBody = $(".form__input-body")
+var cardTitle = $(".form__input-title");
+var cardBody = $(".form__input-body");
 
 $(".idea-cards").on('click','.article__button-delete', deleteCard);
 $('.form__button').on('click', saveButton);
@@ -70,13 +70,10 @@ function upVote(event) {
   } else if (currentQuality.text() === 'plausible') {
     $(currentQuality).text('GENIUS');
   }
-  console.log(currentQuality);
   var parsedCard = JSON.parse(localStorage.getItem(parentId));
   parsedCard.quality = $(currentQuality).text();
   localStorage.setItem(parsedCard.id, JSON.stringify(parsedCard));
 }
-
-
 
 function downVote(event) {
   var parentId = $(event.target).parent().attr("id");
@@ -90,6 +87,3 @@ function downVote(event) {
   parsedCard.quality = $(currentQuality).text()
   localStorage.setItem(parsedCard.id, JSON.stringify(parsedCard))
 }
-
-
-
