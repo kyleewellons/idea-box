@@ -17,7 +17,7 @@ $(document).ready(pullFromLocal);
 
 function cardPrepend(newCard) {
   $(".idea-cards").prepend(`
-    <article id="${newCard.id}">
+    <article class="idea-article" id="${newCard.id}">
         <h2 class="article__h2">${newCard.title}</h2>
         <button class="article__button-delete"></button>
         <p class="article__p-body">${newCard.body}</p>

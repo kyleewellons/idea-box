@@ -28,6 +28,10 @@ article {
  display: inline-block;
 }
 
+.box-h1 {
+  color: #939598;
+}
+
 h1 {
   display: inline-block;
   font-size: 85px;
@@ -147,3 +151,75 @@ font-weight: 800;
 font-size: 30px;
 margin: 0px;
 }
+
+@media only screen and (max-width: 650px) {
+ 
+  form {
+    width: 90%;
+    margin: 0 0 0 5%;
+  }
+
+  .section__input {
+  width: 85%;
+}
+
+.idea-article {
+  width: 90%;
+  margin: 0 0 0 5%;
+}
+
+
+
+.article__button {
+  height: 40px;
+  width: 40px;
+}
+
+.article__button-delete {
+  height: 40px;
+  width: 40px;
+
+}
+
+.quality {
+  font-size: 30px;
+
+}
+
+}
+
+@media only screen and (max-width: 374px) {
+ .quality {
+  font-size: 20px;
+
+}
+
+.article__button {
+  height: 30px;
+  width: 30px;
+}
+
+.article__button:hover {
+  height: 30px;
+  width: 30px;
+}
+
+
+.article__button-delete {
+  height: 30px;
+  width: 30px;
+
+}
+
+.form__input-body {
+  height:80px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+}
+
+
+
