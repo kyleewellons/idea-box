@@ -1,5 +1,5 @@
-var cardTitle = $(".form__input-title")
-var cardBody = $(".form__input-body")
+var cardTitle = $(".form__input-title");
+var cardBody = $(".form__input-body");
 
 $(".idea-cards").on('click','.article__button-delete', deleteCard);
 $('.form__button').on('click', saveButton);
@@ -44,15 +44,15 @@ function saveButton(e) {
   clearFields();
 }
 
-function clearFields(){
-  cardTitle.val("");
-  cardBody.val("");
-} 
-
 function addToLocal(newCard) {
   var stringifyObj = JSON.stringify(newCard);
   localStorage.setItem(newCard.id, stringifyObj);
 }
+
+function clearFields(){
+  cardTitle.val("");
+  cardBody.val("");
+} 
 
 function pullFromLocal() {
   for(i=0; i < localStorage.length; i++) {
